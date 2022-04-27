@@ -1,0 +1,18 @@
+Aula 31: 
+
+TAMANHOS DE IMAGEM
+
+
+Celular: 300x300
+Resolução: 80,000
+Precisão: Inteiro 8bits
+
+
+Tablet: 700x700
+Resolução: 80,000
+Precisão: 8bits
+
+
+Notebook/Tv: 1.000x1.000
+Resolução: 80,000
+Precisão: 8bits

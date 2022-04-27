@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New';
+            font-size: 1em;
+            font-weight: bold;
+            /* weight(peso) , width(largura) , height(altura) */
+            font-style: italic;
+        }
+        /* Medidas Absolutas
+        cm, mm, in (polegada), px, pt (ponto), pc (paica)
+
+        Medidas Relativas
+        em (tamanho atual/ do M da fonte), ex (altura x), rem, vw (tamanho de largura tela), vh (altura da tela, view port), %
+
+        Recomendação da W3C é usar (px e em)
+        16px geralmente é igual 1em(tamanho da letra), em é o dobro de px
+
+        O em é o melhor por trabalhar com porcentagem do tamanho da fonte padrão, para ser exibido em celular, note, tv, etc
+        */
+        
+        h1 {
+            /* shorthand font 
+            
+            No lugar de:
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            Posso colocar só:
+            font-style -> font-weight -> font-size -> font-family 
+            */
+            
+            font: italic bolder 3em Arial, Helvetica, sans-serif;
+        }
+        h2 {
+            font: bolder 3em Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque veniam accusamus! Beatae molestiae corrupti alias ex nesciunt, architecto laudantium assumenda reprehenderit quasi aliquid porro natus delectus sequi accusamus accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perferendis ab explicabo recusandae maiores excepturi quas quaerat reprehenderit ipsam facilis? Vero quibusdam fugit explicabo repellat a, molestiae vitae veritatis quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi fugit vel corrupti illo quibusdam neque debitis optio asperiores quos inventore repellat sed alias officiis, suscipit possimus velit sapiente natus a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reprehenderit animi, saepe dignissimos ut nemo dolorem a reiciendis nulla alias, voluptas beatae tenetur, magni recusandae veniam quam quibusdam quasi temporibus.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, perferendis? Et esse nobis, inventore doloremque, laudantium officia laboriosam deserunt, soluta ab consequuntur dolor repellendus. Alias repellendus repudiandae nisi doloremque natus.</p>
+</body>
+</html>
