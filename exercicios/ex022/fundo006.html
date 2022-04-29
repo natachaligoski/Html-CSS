@@ -3,20 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(Imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+                /* Shorthand - background (seria assim)
+        color > image > position > repeat > [size] > attachment
+        
+        (porém com o SIZE no shorthand só funciona assim:)
+        color > image > position / size > repeat > attachment*/
+
+            background: black url('Imagens/wallpaper002.jpg') center center/ cover no-repeat fixed;
         } 
+
+    
+
+    
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             border: 1px solid darkblue;
             border-radius: 15px;
@@ -27,7 +40,7 @@
 <body>
     <main>
         <h1>Teste Imagem de Fundo</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor pariatur debitis quisquam qui vero reiciendis accusamus cum autem optio? Aliquid nemo nulla cumque ut tempore eaque ipsum ex optio qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, aliquam excepturi recusandae sit fuga facilis architecto, fugit rem cum iure voluptas quae quam vero similique quod reiciendis exercitationem sapiente sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ullam dignissimos nemo ducimus incidunt qui itaque maxime nesciunt, quasi quam temporibus aliquam similique. Maiores dolor error beatae adipisci cupiditate deleniti.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor pariatur debitis quisquam qui vero reiciendis accusamus cum autem optio? Aliquid nemo nulla cumque ut tempore eaque ipsum ex optio qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, aliquam excepturi recusandae sit fuga facilis architecto, fugit rem cum iure voluptas quae quam vero similique quod reiciendis exercitationem sapiente sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ullam dignissimos nemo ducimus incidunt qui itaque maxime nesciunt, quasi quam temporibus aliquam similique. Maiores dolor error beatae adipisci cupiditate deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia exercitationem ex doloremque dicta illo consectetur cupiditate iusto recusandae, expedita officiis eveniet magnam corporis nisi harum fugit vel beatae ipsa autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto ut, error maxime quod enim eveniet necessitatibus pariatur consequatur totam voluptate iure numquam sapiente dolor quaerat vero ratione, magnam recusandae? Error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam quisquam rerum, repudiandae labore molestias corrupti sunt sed officiis. Corporis sapiente excepturi, iusto atque tempore accusantium ipsum consectetur. Dicta, hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta accusantium minima vel quibusdam aliquam. Ea beatae similique, quaerat maxime tempora excepturi saepe dolorem eaque velit officia, provident possimus, explicabo laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio, dignissimos totam repellendus deserunt incidunt. Quaerat tempore iste, impedit voluptate numquam optio in, maxime illo doloribus reprehenderit temporibus nam nihil. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus temporibus nihil. Veritatis, incidunt voluptatum dolorum autem, voluptatibus consequatur amet veniam neque iure ab officiis optio, odit deserunt dolore illum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi reiciendis alias odio nam aperiam sapiente illum? Assumenda, dolor tempore. Exercitationem facilis sapiente obcaecati quidem. Pariatur repudiandae atque architecto laborum delectus!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat obcaecati repudiandae eveniet aperiam commodi repellat omnis incidunt veritatis numquam, quisquam, est consequatur magnam et modi praesentium. Iure voluptas voluptatibus natus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, eveniet. Laborum natus officiis beatae dolorem, nisi vero architecto neque temporibus repudiandae perspiciatis harum possimus officia dignissimos assumenda aut, sit quaerat.</p>
     </main>
 </body>
 </html>
