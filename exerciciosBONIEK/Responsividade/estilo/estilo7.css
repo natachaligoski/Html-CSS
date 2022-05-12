@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+p {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: black;
+    transition: all 1s linear;
+    
+}
+.caixa-ex {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    
+    transition: all 1s linear;
+}
+
+.caixa-ex:hover {
+    background-color: white;
+}
+
+p:hover {
+    color: red;
+}
