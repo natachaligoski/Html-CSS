@@ -1,0 +1,94 @@
+MENU
+Serralheria Rezende / Comunicação Visual  
+-Atualizações
+-Atualizações
+-Quem somos
+-Galeria
+-Contato
+
+            <div><a href="#">Atualizações</a></div>
+            <div><a href="#">Depoimentos</a></div>
+            <div><a href="#">Quem somos</a></div>
+            <div><a href="#">Galeria</a></div>
+            <div><a href="#">Contato</a></div>
+
+
+Solicitar Cotação
+
+Ligar Agora
+
+Ver Rotas
+
+
+CABEÇALHO TITULO
+Serralheria Rezende / Comunicação Visual
+P
+Serralharia em Barão Geraldo
+Aberto hoje até 18:15
+
+
+BOTÃO
+solitar cotação
+
+
+FOTO
+
+
+ATUALIZAÇÕES
+9fotos
+
+
+VER TUDO (LINK)
+-todas as fotos-
+
+
+DEPOIMENTOS
+-prints dos Depoimentos-
+
+
+ESCREVA UM COMENTÁRIO (LINK espaço para comentar e avaliar)
+
+
+SAIBA MAIS (LINK para avaliações)
+
+
+
+PORTOES, GRADES, CORRIMÃO, REFORMAS...
+
+
+GALERIA
+-mais 9 fotos-
+
+
+ENTRAR EM CONTATO
+-mapa-
+
+
+CONTATO (ir direto para contato no cel)
+(19) 99893-9391
+
+
+ENDEREÇO
+-ir para google maps-
+Rua Maria Adame Pattaro, 406 - Vila Modesto Fernandes
+Campinas - SP
+13084-280
+Brasil
+
+
+
+Horário de funcionamento
+seg.:	08:30 – 18:00
+ter.:	08:30 – 18:15
+qua.:	08:30 – 18:15
+qui.:	08:30 – 18:15
+sex.:	08:30 – 18:15
+sáb.:	09:00 – 14:00
+dom.:	Fechado
+
+
+
+RODAPÉ
+Denunciar abuso
+Foto de capa de Serralheria Rezende / Comunicação Visual
+tecnologia do GOOGLE(link)

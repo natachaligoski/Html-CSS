@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Alinhamentos</title>
+    <style>
+        .container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 30px 10px;
+            
+            
+            background-color: gray;
+            height: 500px;
+        }
+
+        .container div {
+            background-color: black;
+            width: 100px;
+            height: 100px;
+            
+            
+        }
+
+        .self {
+            align-self: flex-end;
+            
+        }
+
+        div {
+            color: white;
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Flexbox Alinhamentos</h1>
+
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>1</div>
+        <div>2</div>
+        <div class="self">3</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>1</div>
+        <div>2</div>
+    </div>
+</body>
+</html>
