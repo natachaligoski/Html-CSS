@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 * {
     margin: 0px;
     padding: 0px;
@@ -9,6 +10,8 @@
 body {
 
 }
+
+
 header {
     height: 120px;
     display: flex;
@@ -51,14 +54,15 @@ nav a {
 }
 
 nav .active a, nav a:hover {
-    background-color: #39aae1;
+    background-color: #009EC5;
     color: white;
 }
+
 
 #banner {
     display: flex;
     justify-content: center;
-    background-image: url("../imagens/img1.jpg");
+    background-image: url("../imagens/img3.jpg");
     background-position: center;
     background-size: cover; /*em monitores grandes a imagem vai expandir para preencher o espaço, em celular reduzir*/
     height: 670px;
@@ -91,10 +95,11 @@ nav .active a, nav a:hover {
     margin-top: 30px;
 }
 
+
 .banner_options {
     display: flex;
     height: 210px; /*vai ficar tamanho fixo*/
-   
+    
 }
 
 .banner_options a {
@@ -115,15 +120,16 @@ nav .active a, nav a:hover {
 }
 
 .banner1 {
-    background-color: #39aae1;
+    background-color: #016889;
 }
 
 .banner2 {
-    background-color: #0079c7;
+    background-color: #9b0f71b7;
 }
 
 .banner3 {
-    background-color: #2b4c99;
+    background-color: #03A2C9;
+    
 }
 
 .banner_title {
@@ -185,6 +191,28 @@ nav .active a, nav a:hover {
 
 #geral aside {
     flex: 1;
+    
+    
+}
+
+.quadrados {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.quadrados div { 
+    background-color: #39aae1;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
+ }
+
+aside .widget_title_text, .widget_title_bar {
+    margin-left: 10px;
 }
 
 .widget_title {
@@ -196,13 +224,32 @@ nav .active a, nav a:hover {
     color: black;
     font-size: 21px;
     font-weight: bold;
+
 }
+
 
 .widget_title_bar {
     width: 50px;
     height: 2px;
+    background-color: #9b0f71b7;
+    margin-top: 10px;
+    
+}
+
+.widget_title_bar_lat {
+    width: 50px;
+    height: 2px;
     background-color: #36a9e1;
     margin-top: 10px;
+    
+}
+
+.widget_title_bar_news {
+    width: 50px;
+    height: 2px;
+    background-color: #9b0f71b7;
+    margin-top: 10px;
+    
 }
 
 .flex {
@@ -225,7 +272,7 @@ article .news_data {
 }
 
 article .news_posted_at {
-    background-color: #2b4c99;
+    background-color: #006080;
     color: white;
     font-size: 12px;
     padding: 10px;
@@ -233,7 +280,7 @@ article .news_posted_at {
 }
 
 article .news_coments {
-    background-color: #39aae1;
+    background-color: #009EC5;
     color: white;
     font-size: 12px;
     padding: 10px;
@@ -287,12 +334,40 @@ footer {
     background-color: #39aae1;
 }
 
+.fm_1 div {
+    font-size: 25px;
+}
+
+.fm_1 p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 .fm_2 {
     background-color: #0079c7;
 }
 
+
+.fm_2 div {
+    font-size: 25px;
+}
+
+.fm_2 p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 .fm_3 {
     background-color: #2b4c99;
+}
+
+.fm_3 div {
+    font-size: 25px;
+}
+
+.fm_3 p {
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 .footer_area {
@@ -319,7 +394,54 @@ footer .widget_title_text {
 }
 
 
-.widget_body {
+.widget_body_make {
+    padding-left: 10px;
+}
+
+.widget_body_makep {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.linha1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.phone {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.linha2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.linha2 a {
+    text-decoration: underline;
+}
+
+.emoji {
+    display: inline-block;
+    background-color: rgba(196, 196, 196, 0.671);
+    padding: 5px;
+}
+
+.email {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.linha3 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.linha3 a {
+    text-decoration: underline;
+}
+
+.lor {
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -342,15 +464,216 @@ footer .widget_title_text {
 }
 
 .bla {
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: #0079c7;
+    font-weight: bolder;
+}
 
-.descricao {
-   
+.descricao p {
+   margin-bottom: 5px;
+   font-size: 15px;
 }
 
 .descricao a {
     display: block;
     margin-bottom: 20px;
+    font-size: 15px;
 }
+
+ul, li {
+    list-style: none;
+}
+
+.MenuMobile {
+    display: none;
+    width: 35px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm_line {
+    height: 3px;
+    background-color: #39aae1;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 760px) {
+
+    .banner_headline {
+        padding: 20px;
+    }
+
+    .banner_headline h1 {
+       font-size: 55px;
+    }
+
+    .banner_headline h2 {
+        font-size: 17px;
+    }
+
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #geral section {
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    #geral aside {
+        padding: 20px;
+    }
+
+    .footer_menu {
+        flex-direction: column;
+    }
+
+    .footer_area {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-copy {
+        padding-left: 20px;
+    }
+    
+    header {
+        height: auto;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background: white;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .MenuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+
+
+
+
+
+    @media(max-width: 320px) {
+
+        .banner_headline {
+            padding: 20px;
+        }
+    
+        .banner_headline h1 {
+           font-size: 55px;
+        }
+    
+        .banner_headline h2 {
+            font-size: 17px;
+        }
+    
+        .banner_options {
+            height: auto;
+            flex-direction: column;
+        }
+    
+        .container {
+            flex-direction: column;
+        }
+    
+        #geral section {
+            padding: 20px;
+            margin-top: 100px;
+        }
+    
+        #geral aside {
+            padding: 20px;
+        }
+    
+        .footer_menu {
+            flex-direction: column;
+        }
+    
+        .footer_area {
+            flex-direction: column;
+            padding: 20px;
+        }
+    
+        .footer-copy {
+            padding-left: 20px;
+        }
+        
+        header {
+            height: auto;
+        }
+    
+        header .container {
+            flex-direction: row;
+        }
+    
+        nav ul {
+            flex-direction: column;
+            display: none;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            background: white;
+        }
+    
+        .logo {
+            padding-left: 20px;
+        }
+    
+        .MenuMobile {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
