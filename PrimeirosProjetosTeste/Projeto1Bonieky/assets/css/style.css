@@ -7,11 +7,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-
-}
-
-
 header {
     height: 120px;
     display: flex;
@@ -584,96 +579,3 @@ ul, li {
         justify-content: space-around;
     }
     
-
-
-
-
-
-    @media(max-width: 320px) {
-
-        .banner_headline {
-            padding: 20px;
-        }
-    
-        .banner_headline h1 {
-           font-size: 55px;
-        }
-    
-        .banner_headline h2 {
-            font-size: 17px;
-        }
-    
-        .banner_options {
-            height: auto;
-            flex-direction: column;
-        }
-    
-        .container {
-            flex-direction: column;
-        }
-    
-        #geral section {
-            padding: 20px;
-            margin-top: 100px;
-        }
-    
-        #geral aside {
-            padding: 20px;
-        }
-    
-        .footer_menu {
-            flex-direction: column;
-        }
-    
-        .footer_area {
-            flex-direction: column;
-            padding: 20px;
-        }
-    
-        .footer-copy {
-            padding-left: 20px;
-        }
-        
-        header {
-            height: auto;
-        }
-    
-        header .container {
-            flex-direction: row;
-        }
-    
-        nav ul {
-            flex-direction: column;
-            display: none;
-            position: absolute;
-            left: 0;
-            width: 100%;
-            background: white;
-        }
-    
-        .logo {
-            padding-left: 20px;
-        }
-    
-        .MenuMobile {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-        }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
